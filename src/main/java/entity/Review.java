@@ -37,7 +37,4 @@ public class Review {
   @Column(name = "comment")
   private String comment;
 
-  @Column(name = "created_at")
-  private Instant createdAt;
-
 }

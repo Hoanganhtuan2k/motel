@@ -52,7 +52,4 @@ public class Hostel {
   @Column(name = "available")
   private Boolean available;
 
-  @Column(name = "created_at")
-  private Instant createdAt;
-
 }

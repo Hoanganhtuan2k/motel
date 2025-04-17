@@ -37,7 +37,4 @@ public class SearchLog {
   @Column(name = "radius_km")
   private Double radiusKm;
 
-  @Column(name = "search_time")
-  private Instant searchTime;
-
 }

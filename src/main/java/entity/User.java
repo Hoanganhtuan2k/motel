@@ -1,11 +1,12 @@
 package entity;
 
+import enums.UserRoleEnum;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
-import java.time.Instant;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -36,9 +37,6 @@ public class User {
 
   @Lob
   @Column(name = "role", nullable = false)
-  private String role;
-
-  @Column(name = "created_at")
-  private Instant createdAt;
+  private UserRoleEnum role;
 
 }
